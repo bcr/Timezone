@@ -2,6 +2,12 @@
   "name": "Timezone",
   "keywords": "time, zone",
   "description": "Arduino library to facilitate time zone conversions and automatic daylight saving (summer) time adjustments",
+  "dependencies":
+  [
+    {
+      "name": "Time"
+    }
+  ],
   "repository":
   {
     "type": "git",
